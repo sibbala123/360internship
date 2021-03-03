@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+body{
+    background-color:#dfdf34;
+    margin-top: 30px;
+}
+.container{
+    position: relative;
+   
+    margin: 6% auto;
+    width: 400px;
+    height: 550px;
+    background-color: white;
+    border-radius: 5px;
+   padding: 10px 10px 10px 10px;
+   transition: 0.5s;
+   overflow: hidden;
+}
+.container h2{
+    text-align: center;
+    border-bottom: solid whitesmoke;
+    padding:  10px ;
+}
+h3{
+    text-align: center;
+ 
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+   
+.row1{
+    margin-top: 5%;
+    background-color: aliceblue;
+    width:400px;
+}
+h4{
+    color: rgb(49, 49, 216);
+    text-align: center;
+    padding-bottom: 5px;
+}
+.row3{
+    position: absolute;
+    bottom: 0%;
+
+    
+}
+.row2{
+    padding-top: 10px;
+    width:400px;
+}
+.row3{
+    position: absolute;
+    left: 42%;
+}
+.row3 a{
+  
+    text-decoration: none;
+    
+}
+.row4{
+    background-color: #dfdf34;
+position: absolute;
+bottom: 0%;
+left: 43%;
+
+    
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+.abs{
+    position: absolute;
+   height: 500px;
+   
+}
+#slide2{
+    left: -450px;
+    transition: 0.3s;
+}
+#slide3{
+    left: 450px;
+    transition: 0.3s;
+}
+#slide4{
+    left: 450px;
+    transition: 0.3s;
+}
+#slide1{
+    transition: 0.3s;
+}
+.btn{
+    position: absolute;
+}
+.right{
+    right: 0%;
+}
+#dot1{
+    background-color: black;
+}
+@media screen and (max-width: 750px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+        font-family: sans-serif;
+    }
+    .container{
+     width: 100%;
+     padding: auto;
+     margin-right: 5px;
+    
+    }
+    .abs{
+        width: 400px;
+        
+    }
+    .row{
+        max-width: 90%;
+    }
+    .right{
+        left:70%
+    }
+    .row3{
+        position: absolute;
+        left: 36%;
+    }
+    
+  }
